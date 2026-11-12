@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Hermes Calendar</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #0f1115; color: #e6e8eb;
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 64px 24px 96px; }
+  h1 { font-size: 26px; letter-spacing: -0.01em; margin: 0 0 8px; }
+  .sub { color: #8b929e; font-size: 15px; margin-bottom: 40px; }
+  h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.08em;
+       color: #8b929e; margin: 40px 0 12px; font-weight: 600; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 20px; }
+  li { margin-bottom: 8px; }
+  a { color: #6ea8fe; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid #23272f;
+           color: #8b929e; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="sub">Hermes Calendar &middot; last updated 12 November 2026</p>
+
+  <h2>Scope</h2>
+  <p>Hermes Calendar ("the application") is a private automation operated for a single
+     individual on hardware that individual controls. The application has exactly one
+     user: its owner. This policy describes what the application does with Google user
+     data obtained through OAuth 2.0.</p>
+
+  <h2>Data accessed</h2>
+  <ul>
+    <li><strong>Google Calendar events</strong> on the owner's own calendar: titles,
+        times, descriptions, and locations.</li>
+    <li><strong>Google Account email address</strong>, used solely to identify the
+        authorising account.</li>
+  </ul>
+
+  <h2>How data is used</h2>
+  <ul>
+    <li>Event data is used to render a daily agenda summary for the owner.</li>
+    <li>The application creates calendar events only when the owner explicitly
+        requests and confirms each event.</li>
+    <li>Data is never used for advertising, profiling, analytics, or machine-learning
+        model training.</li>
+  </ul>
+
+  <h2>Storage and location</h2>
+  <ul>
+    <li>Event data is processed in memory and is not persisted to a database.</li>
+    <li>OAuth credentials, including the refresh token, are stored on the owner's
+        self-hosted server, readable only by the owner's user account.</li>
+    <li>Data is transmitted only to Google API endpoints over TLS. No third-party
+        services receive any Google user data.</li>
+  </ul>
+
+  <h2>Sharing</h2>
+  <p>Google user data is not sold, rented, shared, transferred, or disclosed to any
+     third party, except where required by applicable law.</p>
+
+  <h2>Retention and deletion</h2>
+  <ul>
+    <li>Event data is not retained after the agenda summary is produced.</li>
+    <li>Credentials persist until revoked by the owner or deleted from the server.
+        To revoke: <a href="https://myaccount.google.com/permissions">Google Account
+        permissions</a>. To delete locally, remove <code>token.json</code> from the
+        host.</li>
+    <li>Revoking access immediately ends the application's ability to read or write
+        calendar data.</li>
+  </ul>
+
+  <h2>Limited use</h2>
+  <p>The application's use of Google API data adheres to the
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+     API Services User Data Policy</a>, including its Limited Use requirements. Data
+     obtained through Google APIs is used only to provide the functionality described
+     above, which is visible and consented to by the owner.</p>
+
+  <h2>Security</h2>
+  <p>The application runs on hardware controlled by the owner, communicates outbound
+     over TLS only, and opens no inbound network ports. Credentials are held in
+     filesystem-restricted files on that machine.</p>
+
+  <h2>Changes</h2>
+  <p>Material changes to this policy will be reflected in the "last updated" date above.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <em>kmf.kenif@gmail.com</em>.</p>
+
+  <footer>
+    <a href="index.html">Hermes Calendar</a>
+  </footer>
+</main>
+</body>
+</html>
