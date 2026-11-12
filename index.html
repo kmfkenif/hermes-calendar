@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Calendar</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #0f1115; color: #e6e8eb;
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 64px 24px 96px; }
+  h1 { font-size: 26px; letter-spacing: -0.01em; margin: 0 0 8px; }
+  .sub { color: #8b929e; font-size: 15px; margin-bottom: 40px; }
+  h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.08em;
+       color: #8b929e; margin: 40px 0 12px; font-weight: 600; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 20px; }
+  li { margin-bottom: 8px; }
+  a { color: #6ea8fe; }
+  code { background: #1b1f27; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid #23272f;
+           color: #8b929e; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hermes Calendar</h1>
+  <p class="sub">A private, single-user automation for a self-hosted assistant.</p>
+
+  <h2>What this is</h2>
+  <p>Hermes Calendar is a personal integration that lets a self-hosted AI assistant
+     running on the owner's own hardware read and write the owner's Google Calendar.
+     It is not a product, has no other users, and is not distributed.</p>
+
+  <h2>What it does with Google data</h2>
+  <ul>
+    <li>Reads upcoming events to produce a daily agenda summary for the owner.</li>
+    <li>Creates calendar events only after the owner explicitly confirms each one.</li>
+    <li>Stores the OAuth refresh token locally on the owner's server; credentials are
+        never transmitted anywhere except to Google's own API endpoints.</li>
+    <li>Does not share, sell, or resell any Google user data. No analytics, no telemetry.</li>
+  </ul>
+
+  <h2>Access and revocation</h2>
+  <p>Access can be revoked at any time from the owner's
+     <a href="https://myaccount.google.com/permissions">Google Account permissions page</a>.</p>
+
+  <h2>Privacy</h2>
+  <p>See the <a href="privacy.html">privacy policy</a> for data handling, retention,
+     and deletion details.</p>
+
+  <footer>
+    Last updated: 12 November 2026 &middot;
+    <a href="privacy.html">Privacy policy</a>
+  </footer>
+</main>
+</body>
+</html>
